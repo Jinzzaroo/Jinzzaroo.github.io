@@ -4,6 +4,21 @@ paginate: 7
 theme: papermod
 
 params:
+
+  showCategory: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: True # 글 안에 Table of Contents 표시
+  tocopen: false
+
+
   label:
     text: "🌳Jinzzaroo"
 
@@ -35,9 +50,6 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
-
-
-  ShowCodeCopyButtons: true #show code copy
 
 menu:
   main:
