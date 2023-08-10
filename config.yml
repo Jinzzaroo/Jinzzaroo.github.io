@@ -1,0 +1,66 @@
+baseURL: 'http://jinzzaroo.github.io/'
+title: "Jinzzaroo"
+paginate: 7
+theme: papermod
+
+params:
+  label:
+    text: "🌳Jinzzaroo"
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Jinzzaroo Study"
+    Content: '
+    -
+
+  ### | 기록되지 않으면 기억되지 않는다.
+    
+    - 
+    '
+    
+  socialIcons:
+    - name: github
+      url: "https://github.com/Jinzzaroo"
+
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+
+  ShowCodeCopyButtons: true #show code copy
+
+menu:
+  main:
+    #- name: About
+    #  url: /about/
+    #  weight: 10
+    - name: Archives
+      url: /archives/
+      weight: 30
+    - name: Categories
+      url: /categories/
+      weight: 40
+    - name: Tags
+      url: /tags/
+      weight: 40
+    - name: Search
+      url: /search/
+      weight: 50
+
+#Search Page
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
