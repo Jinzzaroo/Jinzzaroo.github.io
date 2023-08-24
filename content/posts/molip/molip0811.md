@@ -1,5 +1,5 @@
 ---
-title: "[몰입교육]서비스 배포 패턴"
+title: "[몰입교육] 서비스 배포 패턴"
 date: 2023-08-11T09:26:58+09:00
 author : "Jinzzaroo"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "[몰입교육]깃헙 액션"
+title: "[몰입교육] 깃헙 액션"
 date: 2023-08-21T09:30:58+09:00
 author : "Jinzzaroo"
 draft: false

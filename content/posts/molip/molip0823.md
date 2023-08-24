@@ -1,5 +1,5 @@
 ---
-title: "[몰입교육]"
+title: "[몰입교육] 쿠버네티스"
 date: 2023-08-23T09:11:21+09:00
 author : "Jinzzaroo"
 draft: false
